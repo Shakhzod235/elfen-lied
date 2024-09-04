@@ -1,14 +1,13 @@
+import { Header } from "../components/Header";
+import { mountComponent } from "../utils/utils";
+
 export class Home {
   constructor() {
     this.element = document.createElement("div");
     this.render();
   }
   render() {
-    this.element.innerHTML = `
-      <div>
-        <h1>Home</h1>
-      </div>
-    `;
+    mountComponent(Header, this.element);
   }
   mount(parent) {
     parent.appendChild(this.element);

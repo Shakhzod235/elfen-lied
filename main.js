@@ -1,7 +1,7 @@
 import "./style.css";
-import { Home } from "./src/pages/home";
+import { Home } from "./src/pages/Home";
+import { mountComponent } from "./src/utils/utils";
 
 const appElement = document.querySelector("#app");
 
-const home = new Home();
-home.mount(appElement);
+mountComponent(Home, appElement);

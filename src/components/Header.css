@@ -1,0 +1,73 @@
+.header {
+  background-color: #ae97e8;
+}
+.container {
+  max-width: 1736px;
+  margin: 0 auto;
+  padding: 0 1.33rem;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: "Le Murmure", sans-serif;
+  color: #fff;
+  font-size: 3.75rem;
+  text-decoration: none;
+}
+.catalog__link {
+  font-family: "Euclid Circular A", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.nav__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 0;
+  padding: 0;
+}
+.nav__item {
+  list-style: none;
+}
+.nav__item_catalog {
+  margin-right: 4.16rem;
+}
+.nav__link {
+  font-family: "Euclid Circular A", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header__search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.search__text {
+  font-family: "Euclid Circular A", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.header__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.header__icon-link {
+  text-decoration: none;
+}
